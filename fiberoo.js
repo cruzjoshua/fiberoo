@@ -9,7 +9,7 @@ function fib() {
 console.log(fib());
 
 function numsToStrings(nums) {
-  return _.map(nums, num => ${num} );
+  return _.map(nums, num => String(num) );
 }
 console.log(numsToStrings(fib()));
 
